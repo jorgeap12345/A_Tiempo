@@ -36,7 +36,7 @@
 }
 
 .nav-menu{
-    grid: 1/2/2/3;
+    grid: 1/2/2/3; 
     display: flex;
     width: 80%;
     background-color: rgb(252, 190, 21);
