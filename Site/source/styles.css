@@ -17,6 +17,7 @@
     border-right: 0px;
     border-style: solid;
     border-color: rgb(252, 190, 21);
+    overflow: visible;
 }
 
 .nav-logo-flex{
@@ -25,7 +26,6 @@
     justify-content: center;
     grid-column: 1/2;
     grid-row: 1/2;
-    
     width: 40%;
     height: 100%;
 }
@@ -47,7 +47,7 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
 }
 
 body{
@@ -55,44 +55,88 @@ body{
     background-color: white;
 }
 
-nav-container{
+.nav-container{
     display: flex;
     
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 104px;
     margin-left: auto;  
     margin-right: auto;
     outline: 1px rgb(255, 255, 255);
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-weight: 600;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: visible;
     transition: .25s;
     font-family: "Asap", sans-serif;
+    text-decoration: none;
 }
 
-nav-container:hover{
+.nav-container:hover{
     display: flex;
     align-items: center;
     height: 100%;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 115px;
     margin-left: auto;  
     margin-right: auto;
     border: 1px solid rgb(255, 255, 255) ;
-    background-color: rgb(218, 218, 218);
-    font-size: x-large;
-    font-size: 1.6vw;
+    background-color: rgba(55, 58, 65, 0.482);
+    font-size: 1.4vw;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: visible;
     transition: .25s;
     font-family: "Asap", sans-serif;
+    text-decoration: none;
 }
+
+.nav-dropdown{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-dropdown .dropbtn{
+    font-family: "Asap", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 6;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2vw;
+    text-align: left    ;
+}
+
+.nav-dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: rgb(218, 218, 218);
+}
+
 
 hero1{
 
