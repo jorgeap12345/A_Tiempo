@@ -30,6 +30,10 @@
     height: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
 .nav-logo{
@@ -106,6 +110,7 @@ body{
     height: 100%;
     width: 100%;
     text-decoration: none;
+    color: black;
 }
 
 .dropdown-content {
@@ -172,7 +177,7 @@ hero1{
 }
 
 .hero1_contact_button{
-    width: 60%;
+    width: 100%;
     height: 6vw;
     background-color: rgb(223, 159, 0);
     border:  solid rgba(246, 149, 31, 0);
@@ -188,8 +193,15 @@ hero1{
     font-family: "Montserrat", sans-serif;
 }
 
-.hero1_contact_button:hover{
+.hero1_contact_button_link{
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
+    height: 6vw;    
+}
+
+.hero1_contact_button:hover{
+    width: 100%;
     height: 6vw;
     background-color: rgb(147, 105, 0);
     margin-top: 20px;
