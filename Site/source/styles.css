@@ -46,7 +46,7 @@ a{
     grid-column: 3/4;
     grid-row: 1/2; 
     display: flex;
-    width: 80%;
+    width: 42%;
     height: 100%;
     margin: auto;
     align-items: center;
@@ -111,6 +111,11 @@ body{
     width: 100%;
     text-decoration: none;
     color: black;
+}
+
+.navbar-space{
+    height: 85px;
+    width: 100%;
 }
 
 .dropdown-content {
@@ -246,7 +251,7 @@ text-section1{
     grid-template-columns: 5% 1fr 5%;
     grid-template-rows: 6% 1fr 6%;
     width: 100%;
-    min-height: 430px;
+    min-height: 530px;
     max-height: auto;
     overflow: hidden;
     margin-top: 20px;
@@ -313,7 +318,7 @@ h4{
     width: auto;
     height: 100%;
     overflow: hidden;
-    margin-left: -50px;
+    margin-left: 100px;
 }
 
 .hero2-text-container{
