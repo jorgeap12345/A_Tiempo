@@ -1158,9 +1158,9 @@ text-section2{
     
     .agentes-autorizados-card{
         display: grid;
-        height: 445px;
-        min-width: 380px;
-        max-width: 31%;
+        height: 420px;
+        min-width: 340px;
+        max-width: 1%;
         grid-template-columns: 1fr;
         grid-template-rows: 70% 18% 12%;
         background-color: rgba(223, 159, 0);;
